@@ -14,30 +14,19 @@ Esse projeto foi desenolvido com o intuito de treinar minhas habilidades de HTML
 - CSS
 - JavaScript
 
-## ⚠️ Problemas enfrentados
-
-Liste os problemas que você enfrentou construindo a aplicação e como você resolveu cada um deles. Você que desenvolveu o projeto é a pessoa que mais conhece/entende os possíveis problemas que uma pessoa pode enfrentar rodando a aplicação. Compartilhe esse conhecimento e facilite a vida da pessoa descrevendo-os.
-
-Exemplo:
+## ⚠️ Problemas enfrentados -> Criação da lógica no Java Scripit
 
 ### Problema 1:
-Descrição do problema
-* Como solucionar: explicar a solução.
+Como acessar a tag de ```span``` que estava abaixo do ```input``` com a mensagem "campo obrigatório".
 
-### Problema 2:
-Descrição do problema
-* Como solucionar: explicar a solução.
-
-## ⏭️ Próximos passos
-
-Descreva se você pretende, pensou ou gostaria de elaborar uma nova feature para o seu projeto definindo os próximos passos.
+* Como solucionar: Usando o metodo `nextElementSibling` irá retornar o próximo elemento que vem após um elemento no DOM, que nesse exercício foi o `input`, depois é só acessar o estilo CSS e colocar a propriedade e o valor dependendo do comportamento para exibição desejada. 
 
 ## Resultado Final ✨
-![Formulario com Validação]
+
 
 ## Link para o deploy 🌐
 
-[Formulário com Validação]
+
 
 ## Design Responsivo 📱🖥️
-![Formulario com Validação]
+
