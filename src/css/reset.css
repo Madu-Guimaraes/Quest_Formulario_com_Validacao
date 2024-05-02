@@ -1,0 +1,10 @@
+html {
+    font-size: 62.5%; /*para ficar mais facil de mexer com rem*/
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}

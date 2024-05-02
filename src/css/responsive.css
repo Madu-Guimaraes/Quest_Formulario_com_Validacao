@@ -1,0 +1,239 @@
+@media (min-width: 320px) and (max-width: 388px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .texto{
+        text-align: center;
+        padding: 0 60px;
+        margin-bottom: 15px;
+    }
+
+    .formulario-container {
+        width: 95%;
+    }
+
+    .formulario-container .formulario input {
+        width: 285px;
+    }
+
+    .formulario-container .texto-campos-obrigatorios {
+        font-size: 14px;
+        margin-left: -150px;
+    }
+
+    .formulario-container .btn {
+        width: 285px;
+    }
+}
+
+@media (min-width: 322px) and (max-width: 375px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .texto{
+        text-align: center;
+        padding: 0 60px;
+        margin-bottom: 15px;
+    }
+
+    .formulario-container {
+        width: 90%;
+    }
+
+    .formulario-container .formulario input {
+        width: 310px;
+    }
+
+    .formulario-container .texto-campos-obrigatorios {
+        font-size: 14px;
+        margin-left: -175px;
+    }
+
+    .formulario-container .btn {
+        width: 310px;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .texto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        text-align: center;
+        padding: 0 60px;
+        margin-bottom: 15px;
+    }
+
+    .texto h2 {
+        width: 400px;
+        font-size: 22px;
+        margin-left: 0;
+    }
+
+    .texto p {
+        width: 400px;
+        font-size: 14px;
+        margin-left: 0px;
+    }
+
+    .formulario-container {
+        width: 90%;
+    }
+
+    .formulario-container .formulario input {
+        width: 360px;
+    }
+
+    .formulario-container .texto-campos-obrigatorios {
+        font-size: 14px;
+        margin-left: -220px;
+    }
+
+    .formulario-container .btn {
+        width: 360px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .texto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        text-align: center;
+        padding: 0 60px;
+        margin-bottom: 15px;
+    }
+
+    .texto h2 {
+        width: 500px;
+        font-size: 24px;
+        margin-left: 0;
+    }
+
+    .texto p {
+        width: 500px;
+        font-size: 15px;
+        margin-left: 0px;
+    }
+
+    .formulario-container {
+        width: 60%;
+    }
+
+    .formulario-container .formulario input {
+        width: 400px;
+    }
+
+    .formulario-container .texto-campos-obrigatorios {
+        font-size: 14px;
+        margin-left: -260px;
+    }
+
+    .formulario-container .btn {
+        width: 400px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .texto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 700px;
+        text-align: center;
+        padding: 0 60px;
+        margin-bottom: 15px;
+    }
+
+    .texto h2 {
+        width: 600px;
+        font-size: 30px;
+        margin-left: 0;
+    }
+
+    .texto p {
+        width: 600px;
+        font-size: 20px;
+        margin-left: 0px;
+    }
+
+    .formulario-container {
+        width: 50%;
+        height: 478px;
+    }
+
+    .formulario-container .formulario input {
+        width: 600px;
+        margin-bottom: 15px;
+    }
+
+    .formulario-container .formulario input.nome,
+    .formulario-container .formulario input.email,
+    .formulario-container .formulario input.telefone {
+        height: 45px;
+    }
+
+    .formulario-container .formulario input.mensagem {
+        height: 100px;
+    }
+
+    .formulario-container .formulario input::placeholder{
+        width: 155px;
+        height: 20px;
+        font-size: 18px;
+    }
+
+    .formulario-container .formulario span.mensagem-campo-obrigatorio {
+        width: 200px;
+        height: 3px;
+        font-size: 14px;
+        margin-top: -14px;
+        margin-bottom: 20px;
+    }
+    
+    .formulario-container .texto-campos-obrigatorios {
+        width: 200px;
+        font-size: 18px;
+        margin-left: -400px;
+        margin-bottom: 30px;
+    }
+
+    .formulario-container .btn {
+        width: 600px;
+        font-size: 20px;
+    }
+}

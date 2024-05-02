@@ -1,0 +1,128 @@
+html{
+    background-image: url(../image/bg-repeat.jpg) ;
+    background-size: contain;
+    height: 100vh;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.texto {
+    width: 300px;
+    padding-right: 60px;
+    color: #FFF;
+}
+
+.texto h2 {
+    width: 287px;
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: -60px;
+    text-transform: uppercase;
+}
+
+.texto p {
+    width: 300px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: -60px;
+    margin-top: 11px;
+}
+
+.formulario-container {
+    width: 340px;
+    height: 378px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.formulario-container .formulario{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+}
+
+.formulario-container .formulario input{
+    width: 298.01px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.formulario-container .formulario input.nome,
+.formulario-container .formulario input.email,
+.formulario-container .formulario input.telefone {
+    height: 35.11px;
+}
+
+.formulario-container .formulario input.mensagem {
+    height: 100px;
+    padding-bottom: 60px;   
+}
+
+.formulario-container .formulario input::placeholder{
+    width: 125px;
+    height: 18px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #A8A8A8;
+}
+
+.formulario-container .formulario span.mensagem-campo-obrigatorio {
+    display: none;
+    color: #F52E2E;
+    width: 66px;
+    height: 3px;
+    font-size: 8px;
+    font-weight: 400;
+    margin-top: -10px;
+    margin-bottom: 8px;
+}
+
+.formulario-container .texto-campos-obrigatorios {
+    width: 145px;
+    height: 18px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: -169px;
+    margin-bottom: 20px;
+}
+
+.formulario-container .btn {
+    cursor: pointer;
+    width: 298.01px;
+    height: 41.13px;
+    background-color: #3ccd87;
+    border: none;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: -11px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* AÇÕES: */
+
+/* quando  o campo for preenchido */
+.formulario-container  .formulario input.preenchido{
+    border: 1px solid #00C22B;
+}
+
+/* quando o campo não for preenchido*/
+.formulario-container .formulario input.nao-preenchido  {
+    border-color: #F52E2E;
+}
