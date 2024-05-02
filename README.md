@@ -4,9 +4,9 @@
 
 ## Visão Geral 💡
 
-É um projeto simples onde o objetivo é que se o usuário escrever no ```input``` e clicar no ```button``` de Enviar a borda dos ```input``` ficarão verde, caso contrário a borda ficará vermelha e aparecerá uma mensagem informando quais campos não foram preenchidos e se eles são obrigatórios, no caso desse exercício todos os ```input``` são obrigatórios. 
+É um  exercício simples onde o objetivo é que se o usuário escrever no ```input``` e clicar no ```button``` de enviar a borda dos ```input``` ficará verde, caso contrário a borda ficará vermelha e aparecerá uma mensagem informando quais campos não foram preenchidos e se eles são obrigatórios, no caso desse exercício todos os ```input``` são obrigatórios. 
 
-Esse projeto foi desenolvido com o intuito de treinar minhas habilidades de HTML, CSS e JavaScript.
+Esse exercício foi desenolvido com o intuito de treinar minhas habilidades de HTML, CSS e JavaScript.
 
 ## Tecnologias Usadas 📌
 
@@ -19,7 +19,17 @@ Esse projeto foi desenolvido com o intuito de treinar minhas habilidades de HTML
 ### Problema 1:
 Como acessar a tag de ```span``` que estava abaixo do ```input``` com a mensagem "campo obrigatório".
 
-* Como solucionar: Usando o metodo `nextElementSibling` irá retornar o próximo elemento que vem após um elemento no DOM, que nesse exercício foi o `input`, depois é só acessar o estilo CSS e colocar a propriedade e o valor dependendo do comportamento para exibição desejada. 
+* Como solucionar: Usando o metodo `nextElementSibling` irá retornar o próximo elemento que vem após um elemento no DOM, que nesse exercício foi o `input`, depois é só acessar o estilo CSS e colocar a propriedade e o valor dependendo do comportamento para exibição desejada.
+
+Segue código abaixo:
+
+```javascript
+....
+input.nextElementSibling.style.display = 'inline';
+     input.classList.add("nao-preenchido");
+     input.classList.add("mensagem-campo-obrigatorio");
+....
+```
 
 ## Resultado Final ✨
 
