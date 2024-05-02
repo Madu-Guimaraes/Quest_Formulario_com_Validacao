@@ -14,7 +14,7 @@ Esse projeto foi desenolvido com o intuito de treinar minhas habilidades de HTML
 - CSS
 - JavaScript
 
-## ⚠️ Problemas enfrentados -> Criação da lógica no Java Scripit
+## ⚠️ Problemas enfrentados -> Criação da lógica no JavaScripit
 
 ### Problema 1:
 Como acessar a tag de ```span``` que estava abaixo do ```input``` com a mensagem "campo obrigatório".
