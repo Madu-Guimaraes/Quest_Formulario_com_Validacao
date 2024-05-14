@@ -6,7 +6,7 @@
 
 É um  exercício simples onde o objetivo é que se o usuário escrever no ```input``` e clicar no ```button``` de enviar a borda dos ```input``` ficará verde, caso contrário a borda ficará vermelha e aparecerá uma mensagem informando quais campos não foram preenchidos e se eles são obrigatórios, no caso desse exercício todos os ```input``` são obrigatórios. 
 
-Esse exercício foi desenolvido com o intuito de treinar minhas habilidades de HTML, CSS e JavaScript.
+Esse exercício foi desenvolvido com o intuito de treinar minhas habilidades de HTML, CSS e JavaScript.
 
 ## Tecnologias Usadas 📌
 
