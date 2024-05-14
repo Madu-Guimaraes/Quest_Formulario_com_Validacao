@@ -54,7 +54,7 @@
 
     .formulario-container .texto-campos-obrigatorios {
         font-size: 14px;
-        margin-left: -175px;
+        margin-left: -150px;
     }
 
     .formulario-container .btn {
@@ -103,7 +103,7 @@
 
     .formulario-container .texto-campos-obrigatorios {
         font-size: 14px;
-        margin-left: -220px;
+        margin-left: -150px;
     }
 
     .formulario-container .btn {
@@ -137,26 +137,29 @@
     }
 
     .texto p {
-        width: 500px;
+        max-width: 500px;
+        width: 360px;
         font-size: 15px;
         margin-left: 0px;
     }
 
     .formulario-container {
-        width: 60%;
+        width: 50%;
     }
 
     .formulario-container .formulario input {
-        width: 400px;
+        max-width: 490px;
+        width: 360px;
     }
 
     .formulario-container .texto-campos-obrigatorios {
         font-size: 14px;
-        margin-left: -260px;
+        margin-left: -210px;
     }
 
     .formulario-container .btn {
-        width: 400px;
+        max-width: 490px;
+        width: 360px;
     }
 }
 
@@ -186,18 +189,20 @@
     }
 
     .texto p {
-        width: 600px;
+        max-width: 600px;
+        width: 590px;
         font-size: 20px;
         margin-left: 0px;
     }
 
     .formulario-container {
-        width: 50%;
+        width: 45%;
         height: 478px;
     }
 
     .formulario-container .formulario input {
-        width: 600px;
+        max-width: 600px;
+        width: 590px;
         margin-bottom: 15px;
     }
 
@@ -233,7 +238,8 @@
     }
 
     .formulario-container .btn {
-        width: 600px;
+        max-width: 600px;
+        width: 590px;
         font-size: 20px;
     }
 }

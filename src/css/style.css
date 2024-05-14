@@ -30,7 +30,8 @@ main{
 }
 
 .texto p {
-    width: 300px;
+    max-width: 300px;
+    width: 290px;
     font-size: 15px;
     font-weight: 400;
     margin-left: -60px;
@@ -46,6 +47,7 @@ main{
     align-items: center;
     justify-content: center;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
 }
 
 .formulario-container .formulario{
@@ -55,7 +57,8 @@ main{
 }
 
 .formulario-container .formulario input{
-    width: 298.01px;
+    max-width: 298.01px;
+    width: 290px;
     border-radius: 5px;
     border: 1px solid #000;
     padding-left: 10px;
@@ -84,9 +87,9 @@ main{
 .formulario-container .formulario span.mensagem-campo-obrigatorio {
     display: none;
     color: #F52E2E;
-    width: 66px;
+    width: 80px;
     height: 3px;
-    font-size: 8px;
+    font-size: 9px;
     font-weight: 400;
     margin-top: -10px;
     margin-bottom: 8px;
@@ -97,13 +100,14 @@ main{
     height: 18px;
     font-size: 15px;
     font-weight: 400;
-    margin-left: -169px;
+    margin-left: -139px;
     margin-bottom: 20px;
 }
 
 .formulario-container .btn {
     cursor: pointer;
-    width: 298.01px;
+    max-width: 298.01px;
+    width: 290px;
     height: 41.13px;
     background-color: #3ccd87;
     border: none;

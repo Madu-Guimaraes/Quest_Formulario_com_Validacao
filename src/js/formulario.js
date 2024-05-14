@@ -1,5 +1,5 @@
 const formularioElementos = document.querySelectorAll('.formulario input');
-const botaoDeEnviarFormulario = document.querySelector('.btn');
+const botaoEnviar = document.querySelector('.btn');
 
     formularioElementos.forEach(input => {
     input.addEventListener('input', function(){
@@ -11,7 +11,7 @@ const botaoDeEnviarFormulario = document.querySelector('.btn');
     });
 });
 
-botaoDeEnviarFormulario.addEventListener('click', function() {
+botaoEnviar.addEventListener('click', function() {
     formularioElementos.forEach(input => {
         
         if(input.value === "") {
